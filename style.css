@@ -1,0 +1,168 @@
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+  background-color: #111;
+  /*background-image: url("./img/image.jpg");*/
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  color: yellow;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  min-height: 100vh;
+  font-weight: bold;
+  padding: 8px;
+}
+
+
+.game-container {
+  display: flex;
+  flex-wrap: column;
+  justify-content: center;
+  align-items: center;
+  gap: 7px;
+  padding-left: 13px;
+  margin-right: 5px;
+}
+
+canvas {
+  background-color: #000;
+  border: 2px solid #444;
+  max-width: 100%;
+  height: auto;
+}
+
+.info-panel {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  min-width: 140px;
+  margin-top: 25px;
+  align-items: center;
+  justify-content: center;
+
+}
+
+button #restart {
+  padding-left: 10px;
+}
+
+
+button {
+  padding: 4px;
+  font-size: 16px;
+  border: none;
+  background-color: #444;
+  color: white;
+  border-radius: 6px;
+  cursor: pointer;
+  width: 70%;
+  margin-top: 3px;
+  margin-left: 17px;
+  align-items: center;
+
+}
+
+button:hover {
+  background-color: #665;
+}
+
+.game-over {
+  display: none;
+  font-size: 24px;
+  color: red;
+  font-weight: bold;
+}
+
+.touch-controls {
+  margin-top: 70px;
+  display: flex;
+  gap: 5px;
+  flex-wrap: column;
+  justify-content: center;
+  display: none;
+}
+
+.touch-controls button {
+  font-size: 24px;
+  padding: 10px 20px;
+  border-radius: 8px;
+  background: #444;
+  color: white;
+
+}
+
+
+#next-piece {
+  width: 140px;
+  height: 180px;
+  margin-bottom: 60px;
+  padding: auto;
+
+}
+
+
+
+footer {
+  margin-top: auto;
+  text-align: center;
+  color: #ccc;
+  padding: 15px 0;
+  font-size: 14px;
+  background-color: #222;
+  width: 100%;
+}
+
+/*
+Responsividade 
+ @media screen and (max-width: 768px) {
+  .game-container {
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+  }
+
+  .info-panel {
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: space-between;
+  }
+
+  .info-panel canvas,
+  .info-panel div,
+  .info-panel button {
+    margin: 5px;
+
+  }
+
+  button {
+    width: auto;
+    margin-left: 5px;
+    margin-right: 5px;
+  }
+
+}
+@media (max-width: 480px) {
+  #tetris {
+    width: 90vw;
+    height: auto;
+  }
+
+  #next-piece {
+    width: 80px;
+    height: auto;
+  }
+
+  .touch-controls {
+    display: flex;
+    flex-wrap: column;
+    justify-content: space-between;
+  }
+
+  .touch-controls button {
+    font-size: 20px;
+    padding: 8px 16px;
+  }
+} */
