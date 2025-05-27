@@ -115,8 +115,7 @@ footer {
   width: 100%;
 }
 
-/*
-Responsividade 
+/*Responsividade */
  @media screen and (max-width: 768px) {
   .game-container {
     flex-direction: column;
@@ -142,8 +141,8 @@ Responsividade
     margin-left: 5px;
     margin-right: 5px;
   }
+ }
 
-}
 @media (max-width: 480px) {
   #tetris {
     width: 90vw;
@@ -165,4 +164,4 @@ Responsividade
     font-size: 20px;
     padding: 8px 16px;
   }
-} */
+} 
